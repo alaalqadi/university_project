@@ -1,0 +1,26 @@
+{% extends request.is_ajax|yesno:"main/layout/layout_ajax.html,main/layout/layout.html" %}
+{% load static %}
+{% block site_title %}
+
+    add_user
+
+{% endblock %}
+{% block content %}
+    <a class="btn btn-primary pull-right" href="{% url 'add_post' %}">Add New Post</a>
+    <div class="row ">
+        <div class="col-md-12 ">
+            {% for post in posts %}
+                <div class="well" style="margin: 15px 0;background: transparent;">
+                    <a class="btn btn-info pull-right" style="margin: 25px 0" href="{% url 'edit_post' post.id %}">Edit Post</a>
+                    <a class="btn btn-danger pull-right"  style="margin-right: 10px;margin-top: 25px;"
+                       href="{% url 'delete_post' post.id %}">Delete Post</a>
+                    <h2>Created by:</h2><small>{{ post.user }}</small>
+                    <h3>{{ post.name }}</h3>
+                    <img class="mr-3 pull-left" width="300px" height="200px" src="{{ post.attachment.url }}"
+                         alt="asdsad"><br clear="all"/><br/><br/>
+                    <h4 style="word-break: break-all">{{ post.description }}</h4>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
