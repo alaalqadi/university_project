@@ -7,10 +7,12 @@ from . import forms
 from . import models
 import logging
 
+from django.contrib.auth.decorators import login_required
 logger = logging.getLogger('django')
 
 
 # Create your views here.
+@login_required()
 def index(request):
     posts = Post.objects.filter(status=Post.STATUS_OPEN)
 

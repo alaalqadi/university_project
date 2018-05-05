@@ -14,7 +14,7 @@
                     <a class="btn btn-info pull-right" style="margin: 25px 0" href="{% url 'edit_post' post.id %}">Edit Post</a>
                     <a class="btn btn-danger pull-right"  style="margin-right: 10px;margin-top: 25px;"
                        href="{% url 'delete_post' post.id %}">Delete Post</a>
-                    <h2>Created by:</h2><small>{{ post.user }}</small>
+                    <h2>Created by: {{ post.user }}</h2>
                     <h3>{{ post.name }}</h3>
                     <img class="mr-3 pull-left" width="300px" height="200px" src="{{ post.attachment.url }}"
                          alt="asdsad"><br clear="all"/><br/><br/>
