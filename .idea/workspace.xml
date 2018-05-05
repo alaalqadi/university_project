@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d0d9cd-8631-4cd9-b975-e86491e6d3ba" name="Default" comment="Merge branch 'master' of https://github.com/alaalqadi/university_project&#10;&#10;# Conflicts:&#10;#&#9;README.md">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+    <list default="true" id="16d0d9cd-8631-4cd9-b975-e86491e6d3ba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/layout/tools/header.html" afterPath="$PROJECT_DIR$/main/templates/layout/tools/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/index.html" afterPath="$PROJECT_DIR$/main/templates/main/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/views.py" afterPath="$PROJECT_DIR$/main/views.py" />
     </list>
     <list id="0b01d062-14dc-4a82-9788-a152ff75ef75" name="asd" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -518,6 +513,14 @@
       <option name="presentableId" value="Default" />
       <updated>1525450180734</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding authentication links">
+      <created>1525497769344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525497769344</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -564,6 +567,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding authentication links" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding authentication links" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
